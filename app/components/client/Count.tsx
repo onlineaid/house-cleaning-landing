@@ -16,7 +16,7 @@ const Count = ({ end, duration }: any) => {
         onExit={() => setCounter(false)}
       >
         {counter && (
-          <CountUp end={end} duration={duration} prefix="+ " suffix=" k" />
+          <CountUp end={end} duration={duration} prefix="" suffix="" />
         )}
       </ScrollTrigger>
     </div>

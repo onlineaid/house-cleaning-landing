@@ -37,4 +37,4 @@ const Carousel = (props: Props) => {
     )
 }
 
-export default Carousel
+export default Carousel;
