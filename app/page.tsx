@@ -10,6 +10,8 @@ import Feature from "./components/Feature";
 import WhyChooseUs from "./components/WhyChooseUs";
 import Counting from "./components/Counting";
 import HeadingComponent from "./components/Heading";
+import Pricing from "./components/Pricing";
+import NewsLetter from "./components/NewsLetter";
 
 export default function Home() {
   return (
@@ -25,13 +27,16 @@ export default function Home() {
 
       <WhyChooseUs order="order-first" />
 
-      <div className="container mx-auto px-4 my-24">
+      <div className="container mx-auto my-24">
         <CompareImg />
       </div>
 
-      <div className="container mx-auto px-4 my-24">
+      <div className="container mx-auto my-24">
         <HeadingComponent text="Recent Project" align="text-center" />
         <Team />
+        <Pricing />
+
+        <NewsLetter />
       </div>
 
       <Footer />

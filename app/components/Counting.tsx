@@ -25,7 +25,7 @@ type Props = {};
 const Counting = (props: Props) => {
   return (
     <div className="container mx-auto mt-24">
-      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 bg-gradient-to-r from-cyan-500 to-blue-500">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 bg-gradient-to-r from-cyan-500 to-blue-500 card">
         {featureData.map((feature) => (
           <div className="text-center py-20" key={feature.title}>
             <h1 className="text-3xl">{feature.title}</h1>

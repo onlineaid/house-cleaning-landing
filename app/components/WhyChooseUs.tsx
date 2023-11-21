@@ -30,8 +30,8 @@ const WhyChooseUs = ({order}: Props) => {
             <button className="btn btn-primary mt-2">Get Started</button>
           </div>
         </div>
-        <div>
-          <img src="https://img.freepik.com/premium-photo/woman-cleaning-floor-with-mop-living-room-home-with-smile-happy-asian-cleaner-doing-housework-job-clean-lounge-hotel-room-house-while-smiling-alone-spring-cleaning_590464-85963.jpg" />
+        <div >
+          <img className="card" src="https://img.freepik.com/premium-photo/woman-cleaning-floor-with-mop-living-room-home-with-smile-happy-asian-cleaner-doing-housework-job-clean-lounge-hotel-room-house-while-smiling-alone-spring-cleaning_590464-85963.jpg" />
         </div>
       </div>
     </div>
